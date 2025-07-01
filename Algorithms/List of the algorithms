@@ -1,0 +1,84 @@
+# 🔢 Sorting Algorithms Showcase
+
+A categorized collection of sorting algorithms, organized by use case and appeal — from classic educators to chaotic meme magic.
+
+---
+
+## 🧱 1. Basic/Educational Algorithms (Total: 6)
+
+Slow but intuitive—ideal for learning fundamental concepts and visual demos.
+
+| Algorithm             | Time Complexity | Notes                                 |
+|-----------------------|-----------------|---------------------------------------|
+| Bubble Sort           | O(n²)           | Classic “swap until done”             |
+| Insertion Sort        | O(n²)           | Good for nearly sorted arrays         |
+| Selection Sort        | O(n²)           | Always picks the minimum              |
+| Gnome Sort            | O(n²)           | Bubble-Insertion hybrid               |
+| Cocktail Shaker Sort  | O(n²)           | Bi-directional Bubble Sort            |
+| Comb Sort             | ~O(n²)          | Improves Bubble with gap shrinking    |
+
+✅ Easy to visualize but inefficient—great for education and array race humor.
+
+---
+
+## ⚡ 2. Efficient/Real-World Algorithms (Total: 6)
+
+High-performance workhorses commonly used in production software and libraries.
+
+| Algorithm    | Time Complexity        | Notes                                              |
+|--------------|-----------------------|----------------------------------------------------|
+| Merge Sort   | O(n log n)            | Stable, recursive                                  |
+| Quick Sort   | O(n log n) (average)  | Fast but unstable                                  |
+| Heap Sort    | O(n log n)            | Good space efficiency                              |
+| Shell Sort   | ~O(n log n)           | Gap-based insertion                                |
+| TimSort      | O(n log n)            | Python’s default (Merge + Insertion hybrid)        |
+| IntroSort    | O(n log n)            | Used by C++ STL (Quick with Heap fallback)         |
+
+✅ Battle-tested and versatile for real-world applications.
+
+---
+
+## 🎭 3. Meme/Fun Algorithms (Total: 4)
+
+For educational humor, stress tests, and pure chaos.
+
+| Algorithm         | Time Complexity | Notes                                       |
+|-------------------|----------------|---------------------------------------------|
+| Bogosort          | O(n × n!)      | Randomly shuffles until sorted (👑 meme king)|
+| BozoSort          | O(?)           | Swaps two random elements                   |
+| Sleep Sort        | O(n)           | Uses thread sleep time as sort logic        |
+| Quantum Bogosort  | ???            | “Solves” instantly or destroys the universe |
+
+✅ A laugh, a glitch, and a lesson in algorithmic absurdity.
+
+---
+
+## 🧠 4. Academic/Obscure Algorithms (Total: 2)
+
+Unusual ones with specific use cases—good for deep dives and niche domains.
+
+| Algorithm    | Time Complexity | Notes                                     |
+|-------------|-----------------|-------------------------------------------|
+| Bitonic Sort | O(log² n)      | Parallel; used in GPUs and hardware       |
+| Cycle Sort   | O(n²)          | Minimizes writes; great for flash memory  |
+
+✅ Great for gaining new insights or showing off rare gems.
+
+---
+
+## 🧪 5. Linear-Time Non-Comparison Sorts (Total: 2)
+
+Super fast when input conditions are right—especially good for integers and digit-based data.
+
+| Algorithm      | Time Complexity | Notes                                 |
+|----------------|----------------|---------------------------------------|
+| Counting Sort  | O(n + k)        | Efficient for small integer ranges    |
+| Radix Sort     | O(nk)           | Digit-wise sorting (base-dependent)   |
+
+✅ Explores the limits of non-comparison sorting.
+
+---
+
+### 📊 Grand Total: 6 + 6 + 4 + 2 + 2 = **20 Algorithms**
+
+---
